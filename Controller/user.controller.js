@@ -1,8 +1,8 @@
-const User = require("../Model/user.model");
+const UserDeatail = require("../Model/user.model");
 
 exports.getAllUsers = async (req, res) => {
   try {
-    const users = await User.find();
+    const users = await UserDeatail.find();
     res.json(users);
   } catch (error) {
     res.status(500).json({ error: error.message });
@@ -11,7 +11,7 @@ exports.getAllUsers = async (req, res) => {
 
 exports.createUser = async (req, res) => {
   const { username, email, password } = req.body;
-  const newUser = new User({ username, email, password });
+  const newUser = new UserDeatail({ username, email, password });
 
   try {
     const user = await newUser.save();
