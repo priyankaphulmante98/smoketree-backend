@@ -1,6 +1,17 @@
 # smoketree-backend
 
-- backend link deploy on render: https://smooketree.onrender.com
+# backend deploy link:
+- https://smooketree.onrender.com
+
+# Deploy Backend on Render
+
+- ![image](https://github.com/priyankaphulmante98/smoketree-backend/assets/103947245/87df1090-0670-4197-8ab3-397e26fa913c)
+
+# Backend Folder Structure
+
+- ![image](https://github.com/priyankaphulmante98/smoketree-backend/assets/103947245/89a8c6b9-07b8-4d22-ac6d-2c3a5cc868b2)
+
+
 - 
 # Assignment
 
